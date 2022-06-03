@@ -3,32 +3,32 @@ a = 11
 b = 3
 
 
-# Operasi penjumlahan +
+# Addition Operation +
 result  = a + b
 print(a, '+', b, '=', result)
 
 
-# Operasi pengurangan -
+# Subtraction Operation -
 result  = a - b
 print(a, '-', b, '=', result)
 
 
-# Operasi perkalian *
+# Multiplication *
 result  = a * b
 print(a, '*', b, '=', result)
 
 
-# Operasi pembagian / 
+# Division / 
 result  = a / b
 print(a, ':', b, '=', result)
 
 
-# Operasi eksponen (pangkat) **
+# Exponentiation (pangkat) **
 result  = a ** b
 print(a, '**', b, '=', result)
 
 
-# Operasi modulus (sisa pembagian) %
+# Modulus (sisa pembagian) %
 result  = a % b
 print(a, '%', b, '=', result)
 
@@ -36,3 +36,21 @@ print(a, '%', b, '=', result)
 # Operasi floor division //
 result  = a // b
 print(a, '//', b, '=', result)
+
+
+# Precedence Operation
+
+'''
+The order of priority 
+
+1. ()
+2. Exponen **
+3. * , / , % , //
+4. + , -
+'''
+
+x = 3
+y = 2
+z = 4
+result = x ** y * z + x / y - y % z // x
+print(x, '**', y, '*', z, '+', x, '/', y, '-', y, '%', z, '//', x, '=', result)
