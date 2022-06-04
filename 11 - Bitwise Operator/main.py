@@ -85,3 +85,33 @@ print('Data f is :', f, 'in binary is:', format(f, '08b'))
 
 # The result is:
 # Data f is : 248 in binary is: 11111000
+
+
+print('\n',30*'=','\n')
+
+
+# Shifting
+
+# Shift Right (>>)
+c = a >> 2
+print('-- SHIFT RIGHT --')
+print('Data a is :', a, 'in binary is:', format(a, '08b'))
+print('Data c is :', c, 'in binary is:', format(c, '08b'))
+
+# The result is:
+# Data a is : 7 in binary is: 00000111
+# Data c is : 1 in binary is: 00000001
+
+
+print('\n',30*'=','\n')
+
+
+# Shift Left (<<)
+c = a << 2
+print('-- SHIFT LEFT --')
+print('Data a is :', a, 'in binary is:', format(a, '08b'))
+print('Data c is :', c, 'in binary is:', format(c, '08b'))
+
+# The result is:
+# Data a is : 7 in binary is: 00000111
+# Data c is : 28 in binary is: 00011100
